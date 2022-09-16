@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: hsl(217, 54%, 11%)
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 335px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 13px;
+}
+
+.imagen {
+    background: url("../image/image-equilibrium.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 174px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagen .overlay {
+  width: 174px;
+  height: 174px;
+  border-radius: 10px;
+  background-color: hsla(178, 100%, 50%, 0.4);
+  display: none;
+  position: relative;
+  margin-bottom: -315px;
+  background-image: url("../image/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.imagen:hover .overlay {
+  display:block;
+}
+
+.cuerpo {
+    width: 200px;
+    height: 160px;
+}
+
+.tittle {
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+
+
+}
+
+.tittle:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    margin-top: 10px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+}
+
+
+.cost {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.price {
+
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+
+}
+
+.price img {
+    width: 10px;
+    height: 10px;
+
+
+}
+
+.time-offer {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    margin-left: 55px;
+}
+
+.time-offer img {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+.credits {
+    border-top: solid 0.2px rgb(255, 255, 255, 0.25);
+    margin-top: 13px;
+    display: flex;
+}
+
+.footer {
+    margin-top: 13px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    margin-left: 12px;
+
+}
+
+.autor {
+    margin-top: 13px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.autor:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+
+    margin-top: 13px;
+    background: url("../image/image-avatar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+
+}
