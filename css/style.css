@@ -40,7 +40,7 @@ body {
 .imagen .overlay {
   width: 174px;
   height: 174px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: hsla(178, 100%, 50%, 0.4);
   display: none;
   position: relative;
